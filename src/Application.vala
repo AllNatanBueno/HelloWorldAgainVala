@@ -13,6 +13,8 @@ public class MyApp : Gtk.Application{
         main_window.default_width = 300;
         main_window.title = "Hello World Again Vala";
 
+        var button_label = new Gtk.Label("Botão Abaixo");
+
         var button_hello = new Gtk.Button.with_label("Clique Aqui Novamente!");
         button_hello.margin = 12;
         button_hello.clicked.connect(() => {
@@ -20,6 +22,7 @@ public class MyApp : Gtk.Application{
             button_hello.sensitive = false;
         });
 
+        main_window.add(button_label);
         main_window.add(button_hello);
         main_window.show_all();
     }

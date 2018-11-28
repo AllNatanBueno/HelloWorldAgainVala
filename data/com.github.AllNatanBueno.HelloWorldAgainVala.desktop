@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name = Hello World Again
+GenericName = Hello World Again App
+Comment = Hello World em Vala
+Category = Education;
+Exec = com.github.AllNatanBueno.HelloWorldAgainVala
+Icon = application-default-icon
+Terminal = False
+Type = Application
+Keywords = Hello; World; Exemple;
