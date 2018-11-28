@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copright 2018 Natan Bueno <buenonatan0@hotmail.com> -->
+<component type="desktop">
+    <id>com.github.AllNatanBueno.HelloWorldAgainVala</id>
+    <metadata_license>CC0</metadata_license>
+    <name>Hello World Again Vala</name>
+    <summary>Hello World Sumary</summary>
+    <description>
+        <p>Descrição Aqui</p>
+    </description>
+    <custom>
+        <value key="x-appcenter-color-primary">#603461</value>
+        <value key="x-appcenter-color-primary-text">rgb(255,255,255)</value>
+        <value key="x-appcenter-suggested-price">5</value>
+    </custom>
+</component>
